@@ -1,91 +1,58 @@
-# Government-Sector-Cybersecurity-Assessment
-Government Sector Cybersecurity Assessment
 # Government Sector Cybersecurity Assessment
 
-This repository contains an executive summary and analysis of the cybersecurity threat landscape within the government sector. The document explores recent breach incidents, identifies risk factors, and provides strategic recommendations to bolster cybersecurity defenses based on data-driven insights and industry-standard frameworks.
+Breach analysis and risk assessment of cybersecurity vulnerabilities across government and government-adjacent organizations. Uses real incident data and the NIST 800-30 risk management framework to identify systemic weaknesses and provide actionable defensive strategies.
+
+Developed as part of Baylor University MBA Cybersecurity coursework.
 
 ---
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Purpose and Objectives](#purpose-and-objectives)
-3. [Case Studies](#case-studies)
-4. [Key Findings](#key-findings)
-5. [Recommendations](#recommendations)
-6. [Technologies and Frameworks](#technologies-and-frameworks)
-7. [How to Use](#how-to-use)
-8. [License](#license)
+## Scope
 
----
+The assessment analyzes three breach incidents to surface common vulnerability patterns in government infrastructure:
 
-## Overview
-
-This project focuses on the critical need to safeguard government data and infrastructure in an era where cyber threats are increasingly sophisticated. It highlights the consequences of cybercrime, such as financial losses and public trust erosion, while providing insights into risk management strategies.
-
----
-
-## Purpose and Objectives
-
-- **Purpose**: To evaluate and mitigate the cybersecurity risks faced by government entities.
-- **Objectives**:
-  - Analyze cyber incidents affecting government agencies.
-  - Provide actionable recommendations using frameworks like NIST 800-30.
-  - Enhance awareness of threats posed by third-party contractors and internal vulnerabilities.
-
----
-
-## Case Studies
-
-The analysis includes three key case studies:
-1. **City of Hesperia Breach**: Explores the risks and response to unauthorized access to personal information.
-2. **J.B. Hunt Transport Inc. Breach**: Discusses the impact of misconfigurations in cloud services and third-party management.
-3. **Marines Memorial Association Breach**: Highlights the vulnerabilities within military-affiliated organizations and the implications for national security.
+| Case Study | Key Risk Vector |
+|-----------|----------------|
+| **City of Hesperia** | Unauthorized access to personal information — internal access control failure |
+| **J.B. Hunt Transport Inc.** | Cloud service misconfiguration — third-party management gap |
+| **Marines Memorial Association** | Military-affiliated data exposure — portable device and insider threat vectors |
 
 ---
 
 ## Key Findings
 
-- Cyber threats are increasingly sophisticated and persistent, targeting government infrastructure at all levels.
-- Vulnerabilities in cloud services, internal access controls, and third-party contractors pose significant risks.
-- Insider threats and portable device breaches remain critical challenges.
+The analysis identifies five systemic risk categories that recur across government sector breaches: cloud service configuration weaknesses, third-party contractor access risks, internal access control gaps, insider threat exposure, and portable device security failures. The common thread is that most breaches exploit *process* failures rather than technical sophistication — misconfigured defaults, over-provisioned access, and absent monitoring.
 
 ---
 
-## Recommendations
+## Strategic Recommendations
 
-1. Implement proactive threat detection and incident response measures.
-2. Strengthen cloud security and enforce rigorous configuration controls.
-3. Enhance training for internal staff and third-party contractors to mitigate insider threats.
-4. Adopt comprehensive risk management frameworks (e.g., NIST 800-30).
+The report recommends four priority actions aligned to NIST 800-30: proactive threat detection and incident response implementation, cloud security hardening with configuration audit enforcement, insider threat training programs covering both internal staff and third-party contractors, and adoption of formal risk assessment frameworks with continuous monitoring cadences.
 
 ---
 
-## Technologies and Frameworks
+## Framework
 
-- **NIST 800-30**: Risk Management Framework.
-- **Privacy Rights Clearinghouse Data**: Source of breach information.
-- **Threat-Oriented Analysis Approach**: Methodology for risk evaluation.
-
----
-
-## How to Use
-
-1. **Read the Executive Summary**: Understand the scope and objectives of the analysis.
-2. **Review Case Studies**: Gain insights into real-world breaches and their impacts.
-3. **Apply Recommendations**: Use the findings to enhance cybersecurity strategies in government or related sectors.
+- **NIST SP 800-30** — Risk Management Framework (primary methodology)
+- **Privacy Rights Clearinghouse** — Breach data source
+- **Threat-Oriented Analysis** — Risk evaluation approach
 
 ---
 
-## License
+## Repository Contents
 
-This project is shared under the MIT License. You are free to use, modify, and distribute this content with proper attribution.
+| File | Description |
+|------|-------------|
+| `BreachPjExecutiveSum_JohnWilliams.pdf` | Full executive summary with analysis, case studies, and recommendations |
+| `README.md` | This file |
 
 ---
 
 ## Author
 
-**John D. Williams**  
-- [LinkedIn](https://www.linkedin.com/in/john-davis-williams)  
-- [GitHub](https://github.com/killthewizard)  
+**John D. Williams, MBA**
+- [LinkedIn](https://www.linkedin.com/in/john-davis-williams)
+- [GitHub](https://github.com/thejohndwilliams)
 
-Feel free to connect for collaboration or feedback!
+## License
+
+MIT
